@@ -40,13 +40,22 @@ st.write(
 # LOAD PRE-TRAINED MODELS
 # ------------------------------------------------
 
+#@st.cache_resource
+#def load_models():
+
+#    bundle = joblib.load("model_bundle.joblib")
+
+#    return bundle
+from pathlib import Path
+import joblib
+import streamlit as st
+
+BASE_DIR = Path(__file__).resolve().parent
+MODEL_PATH = BASE_DIR / "model" / "model_bundle.joblib"
+
 @st.cache_resource
 def load_models():
-
-    bundle = joblib.load("model_bundle.joblib")
-
-    return bundle
-
+    return joblib.load(MODEL_PATH)
 try:
     bundle = load_models()
 
