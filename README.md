@@ -1,5 +1,5 @@
  Bank-Marketing-ML
-	a. Problem statement 
+	a. Problem statement.
 	      Title: Bank Term Deposit Subscription Prediction Dataset
       Subtitle: Predict whether a client will subscribe to a bank term deposit
       Description:
