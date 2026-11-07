@@ -92,5 +92,7 @@ Overall, Winner for your dataset?	My recommendation:
 For predicting before a marketing call: We can go with Decision Tree and Logistic Regression further.
 Improvement need in both 
 a. For identifying as many subscribers as possible: evaluate recall and adjust the classification threshold.
+
+StreamApp Link - https://sumit-2026aj05130-ml-bank-marketing.streamlit.app/ 
 b.  For minimizing unnecessary marketing calls: optimize precision.
 
