@@ -27,7 +27,7 @@ from sklearn.metrics import (
 RANDOM_STATE = 42
 
 # 2. Load and validate the semicolon-delimited file
-df = pd.read_csv("bankfull.csv", sep=";")
+df = pd.read_csv("test_data.csv", sep=",")
 
 print("Dataset shape:", df.shape)
 print("Missing values:", int(df.isna().sum().sum()))
